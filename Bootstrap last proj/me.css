@@ -1,0 +1,538 @@
+*{
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+}
+  body{
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+  }
+  .nav-item{
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 23px;
+        color: #cccccc;
+        text-transform: uppercase;
+  }
+  .spe{
+        width: 140px;
+        height: 40px;
+        background-color: white;
+        text-align: center;
+        border-radius: 25px;
+        text-transform: uppercase;
+  }
+  .container-fluid{
+        z-index: -5px;
+}
+/*   From here */
+
+      .video-container {
+        position: static;
+        height: 100vh;
+        overflow: hidden;
+         z-index: 1px;
+
+        
+      }
+  
+      .one {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -5; 
+        opacity: 0.750;
+     
+      }
+     .offers{
+        width: 100%;
+        height: 40rem;
+        background-color: black;
+     }
+    .material h1{
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 49px;
+        color: #f1f3f5;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        margin-top: -10rem;
+    }
+    .material p{
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        font-weight: 300;
+        font-size: 23px;
+        line-height: 32px;
+        color:#f1f3f5  ;
+        margin-top: 20px;
+    }
+    .talk{
+        width: 150px;
+        height: 45px;
+        border: none;
+        background: rgb(255,101,5);
+        background: linear-gradient(45deg, rgb(255, 120, 60) 0%, rgb(247, 180, 51) 100%);
+        text-align: center;
+        border-radius: 25px;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+    .talk:hover{
+        background-color: white;
+        color: black;
+        transform: translateY(-4px);
+    }
+    .container video{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+  }
+    
+  /*jiewji*/
+     
+
+
+
+
+  .demo{
+        width: 90%;
+        margin-left: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        text-align: center;
+ }
+ .demo p{
+         font-size: 38px;
+         font-weight: 700;
+         line-height: 49px;
+         color: #212529;
+         font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+ }
+ .demo span{
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 32px;
+        color: #343a40;
+ }
+ .vid video{
+       padding: 10px;
+       margin: 10px;
+       transition: transform 0.3s ease;
+       width: 350px;
+       height: 250px;
+       
+ }
+ .vid video:hover{
+        transform: translateY(-10px);
+ 
+ }
+ .mybtn{
+        width: 15rem;
+        height: 3rem;
+        border: 1px solid wheat;
+        border-radius: 25px;
+        background-color: white;
+        transition: transform 0.3s ease;
+ }
+ .mybtn:hover{
+        transform: translateY(-10px);
+        border: 1px solid black;
+        border-radius: 25px;
+ }
+
+ .container-flui{
+        width: 100%;
+        height: 25rem;
+        background: rgb(255,101,5);
+        background: linear-gradient(45deg, rgb(255, 120, 60) 0%, rgb(247, 180, 51) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       margin-top: 50px;
+ }
+ .container-flui p{
+        font-size: 38px;
+        line-height: 49px;
+        color: #f8f9fa;
+        font-weight: 700;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+ }
+ .container-flui span{
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 32px;
+        color: white;
+ }
+ .container-flui .md{
+        width: 170px;
+        height: 60px;
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        font-size: 20px;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+ }
+
+ .myform{
+        width: 60%;
+        height: 28rem;
+        margin-left: 20rem;
+        margin-top: 5rem;
+        margin-bottom: 7rem;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+ }
+ .myform h2{
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 49px;
+        color: #212529;
+ }
+.myform p{
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 32px;
+        color: #343a40;
+}
+form{
+        margin-top: 5rem;
+}
+input[type="text"],
+textarea {
+        width: 60%;
+        box-sizing: border-box;
+        border: 1px solid white;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       background-color: white;
+       height: 3rem;
+       background-color: rgb(253, 249, 243);
+       border-radius: 10px;
+      }
+      .name .eamil .number .message:hover{
+        border: 1px solid white;
+      }
+      input[type="email"],
+input[type="number"],
+textarea {
+        width: 30%;
+       display: inline;
+        border: 1px solid white;
+        margin-top: 10px;
+       margin-bottom: 10px;
+       height: 3rem;
+       background-color: rgb(253, 249, 243);
+       border-radius: 10px;
+      }
+      .myform::placeholder {
+        margin-left: 10px; /* Adjust the margin as needed */
+      }
+     #message {
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 3rem;
+       border: 1px solid white;
+       background-color: rgb(253, 249, 243);
+       border-radius: 10px;
+      }
+      #btn{
+        width: 60%;
+        margin-top: 25px;
+        height: 6ex;
+        border: 1px solid white;
+        border-radius: 25px;
+        /* background: rgb(255,101,5); */
+        background: linear-gradient(45deg, rgb(255, 120, 60) 0%, rgb(247, 180, 51) 100%);
+        margin-bottom: 10px;
+      }
+
+      /*new*/  
+      .col-5 {
+      color: white;
+        padding: 20px;
+        position: relative;
+        top: 40px;
+        
+      }
+  
+      .col-5 h2 {
+        font-size: 38px;
+        color: #333;
+        display: flex;
+        justify-content: end;
+        position: relative;
+        top: 60px;
+        right: 80px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+      }
+  
+      .col-5 p {
+        font-size: 21px;
+        color: #555;
+        position: relative;
+        top: 60px;
+        right: 75px;
+        display: flex;
+        justify-content: end;
+        font-weight: 400;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+      }
+
+      .row-content {
+        margin-top: 110px;
+       
+      }
+  
+      .row-content h2 {
+        font-size: 24px;
+      }
+  
+      .row-content p {
+        font-size: 16px;
+        position: relative;
+        top: 0px;
+        right: 7px;
+        display: block;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+       
+      }
+  
+      .icon-box {
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+  
+      .icon-box a {
+        font-size: 20px;
+        color: black;
+        border: 1px solid white;
+        background-color: white;
+        width: 40px;
+        height: 35px;
+        border-radius: 10px;
+        margin-bottom: 1px;
+      }
+  
+      .icon-box h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color:rgb(228, 89, 9);
+      }
+  
+      .icon-box p {
+        font-size: 14px;
+        color: #f0f0f0;
+      }
+      .pricing{
+        width: 100%;
+        height: 60rem;
+        position: relative;
+        top: 3rem;
+ }
+ .pricing #ht{
+        text-align: center;
+        font-weight: 700;
+        font-size: 38px;
+        font-weight: 49px;
+        color: #212529;
+ }
+  .container-xl{
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+  }
+  
+ 
+ .boxes li i{
+        color: rgb(6, 170, 6);
+ }
+ .boxes{
+        width: 90%;
+        height: 50rem;
+        margin-left: 190px;
+        margin-top: 10px;
+       display: flex;
+       align-items: center;
+       flex-direction: row;
+       margin-right: 20px;
+       font-family: 'Zen Kaku Gothic Antique', sans-serif;
+       font-family: 'Zen Maru Gothic', sans-serif;
+       transition: transform 0.3s ease;
+ 
+ }
+ .boxes .box1{
+        width: 24%;
+        height: 44rem;
+        margin-top: 10px;
+        margin-left: 40px;
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(250, 249, 246);
+ }                                                                                                                                  
+ .boxes .box1:hover{
+        transform: translateY(-10px);
+ }
+ .boxes .box2:hover{
+        transform: translateY(-10px);
+ }
+ .boxes .box3:hover{
+        transform: translateY(-10px);
+ }
+ .box1 p{
+        font-size: 35px;
+ }
+ .box1 span{
+        font-size: 22px;
+ }
+ .box1 ul{
+        margin: 40px;
+        padding: 20px;
+        font-size: 16px;
+ }
+ .box1 .mc{
+        width: 250px;
+        height: 35px;
+            border: 1px solid wheat;
+            border-radius: 15px;
+            background-color: white;
+            margin-bottom: 40px;
+ }
+ .boxes .box2{
+        width: 24%;
+        height: 44rem;
+        margin-top: 10px;
+        margin-left: 40px;
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffeef2;
+ }
+ 
+ 
+ .box2{
+        font-size: 35px;
+ }
+ .box2 span{
+        font-size: 22px;
+        margin-left: 20px;
+ }
+ .box2 ul{
+        margin: 40px;
+        padding: 20px;
+        font-size: 16px;
+ }
+ .box2 .mc{
+        width: 250px;
+        height: 35px;
+            border: 1px solid wheat;
+            border-radius: 15px;
+            background-color: white;
+            font-size: 18px;
+ }
+ 
+ .boxes .box3{
+        width: 24%;
+        height: 44rem;
+        margin-top: 10px;
+        margin-left: 40px;
+        border: 1px solid rgb(219, 219, 219);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(253, 251, 246);
+ }
+ .box3 p{
+        font-size: 35px;
+ }
+ .box3 span{
+        font-size: 22px;
+ }
+ .box3 ul{
+        margin: 40px;
+        padding: 20px;
+        font-size: 16px;
+ }
+ .box3 .mc{
+            width: 250px;
+            height: 35px;
+            border: 1px solid wheat;
+            border-radius: 15px;
+            background-color: white;
+ }
+ .mc:hover{
+        border: 1px solid white;
+        background: rgb(255,101,5);
+        background: linear-gradient(45deg, rgb(255, 120, 60) 0%, rgb(247, 180, 51) 100%);    
+ }
+  
+
